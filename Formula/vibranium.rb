@@ -1,6 +1,8 @@
 class Vibranium < Formula
   desc "Functional, contract and load tests for HTTP APIs, written as YAML"
   homepage "https://v007m.github.io/vc-rs/"
+  url "https://github.com/v007m/vc-rs/archive/refs/tags/v0.1.0.tar.gz"
+  sha256 "e540b74e9fc1a07f6757c99d3dfa1d57f3a68046f274d0f50f8b53b0eb48396b"
   license "Apache-2.0"
   head "https://github.com/v007m/vc-rs.git", branch: "master"
 
